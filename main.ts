@@ -1,3 +1,4 @@
+// If the wind vane is between the 8 reading directions, use the last known direction.
 function lastWindDir () {
     if (weatherbit.windDirection() != "???") {
         curentWindDir = weatherbit.windDirection()
